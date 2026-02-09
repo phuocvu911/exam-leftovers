@@ -24,7 +24,7 @@ func matchMaker(players []string, matches []Match) []PlayerRating {
 		ratings[p] = 1000.0 // Default rating
 	}
 
-	kFactor := 32.0
+	kFactor := 30.0
 
 	for _, m := range matches { // loop through all matches
 		ra := ratings[m.PlayerA]

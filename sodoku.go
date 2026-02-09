@@ -29,7 +29,7 @@ func solveBacktracking(grid []int) bool {
 				}
 			}
 
-			return false // if every number has been tried, then we hit the wall, return false to set ealier positition to 0 and  find another path.
+			return false // if every number has been tried, then we hit the wall, return false to set ealier positition to 0 and find another path.
 		}
 	}
 
